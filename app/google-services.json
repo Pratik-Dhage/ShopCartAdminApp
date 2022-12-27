@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "161393153182",
+    "project_id": "shopcartappinkotlin",
+    "storage_bucket": "shopcartappinkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161393153182:android:26163233072efffc78978f",
+        "android_client_info": {
+          "package_name": "com.example.shopcartadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161393153182-a00e38afcnitcvpm3m6apafulpamldaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJh770HmvoZGhCK8SHpU1Gm4nt2t4YA8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161393153182-a00e38afcnitcvpm3m6apafulpamldaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161393153182:android:8ad62a54e1645f8c78978f",
+        "android_client_info": {
+          "package_name": "com.example.shopcartappinkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161393153182-a00e38afcnitcvpm3m6apafulpamldaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJh770HmvoZGhCK8SHpU1Gm4nt2t4YA8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161393153182-a00e38afcnitcvpm3m6apafulpamldaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
