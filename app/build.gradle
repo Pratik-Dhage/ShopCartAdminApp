@@ -108,7 +108,7 @@ dependencies {
     //firebase analytics
     implementation 'com.google.firebase:firebase-analytics'
     // for Firebase FireStore Database
-    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
     //firebase crashlytics
     implementation 'com.google.firebase:firebase-crashlytics'
 

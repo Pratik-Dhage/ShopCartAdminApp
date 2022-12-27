@@ -6,4 +6,9 @@
     <string name="add_product">Add Product</string>
     <string name="all_product_detail">All Product Detail</string>
     <string name="add_slider">Add Slider</string>
+    <string name="upload_slider">Upload Slider</string>
+    <string name="loading">Loading...</string>
+    <string name="please_select_image">Please Select Image</string>
+    <string name="slider_image_upload_success">Slider Image Uploaded Successfully</string>
+
 </resources>
