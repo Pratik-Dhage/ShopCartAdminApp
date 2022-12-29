@@ -10,5 +10,9 @@
     <string name="loading">Loading...</string>
     <string name="please_select_image">Please Select Image</string>
     <string name="slider_image_upload_success">Slider Image Uploaded Successfully</string>
+    <string name="category_image_upload_success">Category Image Uploaded Successfully</string>
+    <string name="upload_category">Upload Category</string>
+    <string name="category">Category</string>
+    <string name="category_name_cannot_be_empty">Category name cannot be empty </string>
 
 </resources>

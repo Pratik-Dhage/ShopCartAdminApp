@@ -1,16 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.CategoryFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivCategory"
+        android:layout_width="wrap_content"
+        android:src="@drawable/image_preview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="@dimen/_100sdp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputCategory"
+        android:hint="@string/category"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="category" />
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="@id/ivCategory"
+        app:layout_constraintEnd_toEndOf="@id/ivCategory"
+        app:layout_constraintTop_toBottomOf="@id/ivCategory"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/txtEdtCategory"
+            android:layout_height="match_parent"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:text="@string/upload_category"
+        app:layout_constraintTop_toBottomOf="@id/txtInputCategory"
+        />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rvCategoryFragment"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginTop="@dimen/_10sdp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    tools:listitem="@layout/item_category_layout"
+    tools:itemCount="3"
+    android:orientation="vertical"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    app:layout_constraintTop_toBottomOf="@id/btnCategory"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 </FrameLayout>
 </layout>
