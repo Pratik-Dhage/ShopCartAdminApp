@@ -12,6 +12,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.view.get
 import com.example.shopcartadminapp.R
 import com.example.shopcartadminapp.adapter.AddProductImageAdapter
 import com.example.shopcartadminapp.databinding.FragmentAddProductBinding
@@ -169,7 +170,7 @@ class AddProductFragment : Fragment() {
     private fun storeProductData() {
 
         val db = Firebase.firestore.collection("products")
-        val key = db.id
+        val key = db.document().id //will also be productId
 
         // 8 parameters in AddProductModel
         val data = AddProductModel(
@@ -202,6 +203,8 @@ class AddProductFragment : Fragment() {
         binding.txtEdtProductSP.text = null
         binding.ivProductCoverImage.visibility = View.GONE
         listUri.clear()
+        binding.rvAddProductFragment.visibility = View.GONE
+        binding.productCategoryDropdown.setSelection(0)
     }
 
     private fun validateData() : Boolean {
@@ -240,7 +243,7 @@ class AddProductFragment : Fragment() {
             return false
         }
 
-        if(categoryList.contains(resources.getString(R.string.select_category))){
+        if(binding.productCategoryDropdown.selectedItemPosition==0){
             Global.showSnackBar(binding.root,resources.getString(R.string.please_select_category))
             return false
         }
