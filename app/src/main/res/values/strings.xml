@@ -14,5 +14,23 @@
     <string name="upload_category">Upload Category</string>
     <string name="category">Category</string>
     <string name="category_name_cannot_be_empty">Category name cannot be empty </string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_mrp">Product MRP</string>
+    <string name="product_sp">Product SP</string>
+    <string name="select_cover_image">Select Cover Image</string>
+    <string name="select_product_image">Select Product Images</string>
+    <string name="submit">Submit</string>
+    <string name="product_name_empty">Product Name cannot be Empty</string>
+    <string name="product_description_empty">Product Description cannot be Empty</string>
+    <string name="product_mrp_empty">Product MRP cannot be Empty</string>
+    <string name="product_sp_empty">Product SP cannot be Empty</string>
+    <string name="please_select_cover_image">Please Select Cover Image </string>
+    <string name="please_select_product_image">Please Select Product Image </string>
+    <string name="please_select_category">Please Select Category</string>
+    <string name="product_added_successfully">Products Added Successfully</string>
+    <string name="something_went_wrong">Something went wrong.. </string>
+    <string name="please_fill_required_details">Please fill required details</string>
+    <string name="select_category">Select Category</string>
 
 </resources>

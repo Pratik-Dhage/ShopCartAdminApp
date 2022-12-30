@@ -3,14 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ShopCartAdminApp/app/src/main/res/drawable/add_floating_action_button.xml" value="0.147" />
+        <entry key="..\:/ShopCartAdminApp/app/src/main/res/drawable/floating_add_icon.xml" value="0.147" />
         <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/activity_all_orders.xml" value="0.16666666666666666" />
         <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/fragment_add_product.xml" value="0.16666666666666666" />
+        <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/dropdown_add_product_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/fragment_add_product.xml" value="0.22" />
         <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/fragment_category.xml" value="0.22" />
         <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
-        <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/fragment_product.xml" value="0.16666666666666666" />
+        <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/fragment_product.xml" value="0.2" />
         <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/fragment_slider.xml" value="0.21" />
         <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/item_category_layout.xml" value="0.165625" />
+        <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/item_product_image.xml" value="0.165625" />
         <entry key="..\:/ShopCartAdminApp/app/src/main/res/layout/progress_dialog_layout.xml" value="0.18" />
       </map>
     </option>
