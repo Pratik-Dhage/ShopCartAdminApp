@@ -1,6 +1,6 @@
 package com.example.shopcartadminapp.model
 
-data class AddProductModel(
+data class AddProductModel (
 
     val productName : String ?= "",
     val productDescription : String ?= "",
@@ -9,6 +9,7 @@ data class AddProductModel(
     val productId : String ?= "",
     val productMrp : String ?= "",
     val productSp : String ?= "",
-    val productImages : ArrayList<String>
+    val productImages : ArrayList<String> = ArrayList()
 
 )
+

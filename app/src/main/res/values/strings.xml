@@ -32,5 +32,7 @@
     <string name="something_went_wrong">Something went wrong.. </string>
     <string name="please_fill_required_details">Please fill required details</string>
     <string name="select_category">Select Category</string>
+    <string name="mrp">MRP:</string>
+    <string name="sp">SP:</string>
 
 </resources>
